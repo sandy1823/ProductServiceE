@@ -1,0 +1,41 @@
+{
+	"name": "om-product-service",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node --trace-warnings ./bin/www",
+		"dev": "nodemon ./bin/www",
+		"test": "jest --no-cache  --detectOpenHandles --runInBand --forceExit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/bassure-projects/order-management/services/product-service.git"
+	},
+	"dependencies": {
+		"@platform_jewels/bassure-node": "^1.0.5",
+		"aws-sdk": "^2.1128.0",
+		"axios": "^0.24.0",
+		"compression": "^1.7.4",
+		"cookie-parser": "~1.4.4",
+		"cors": "^2.8.5",
+		"debug": "~2.6.9",
+		"exceljs": "^4.3.0",
+		"express": "~4.16.1",
+		"express-validator": "^6.13.0",
+		"gm": "^1.23.1",
+		"http-errors": "~1.6.3",
+		"imagemagick": "^0.1.3",
+		"moment": "^2.29.1",
+		"mongoose": "^6.0.13",
+		"morgan": "~1.9.1",
+		"multer": "^1.4.4",
+		"pdfjs": "^2.4.7",
+		"uuid": "^8.3.2",
+		"winston": "^3.7.2"
+	},
+	"devDependencies": {
+		"form-data": "^4.0.0",
+		"jest": "^27.3.1",
+		"supertest": "^6.1.6"
+	}
+}

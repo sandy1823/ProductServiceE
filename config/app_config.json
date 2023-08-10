@@ -1,0 +1,41 @@
+{
+	"db": {
+		"URL-OLD": "mongodb+srv://omadmin:a5vQLq0Dz6RGmmG8@cluster0.gio3r.mongodb.net/oms-db",
+		"URL": "mongodb://oms-user:oms-pass@baprojects.bassure.in:27017/oms-db"
+	},
+	"response_code": {
+		"success": 600,
+		"field_validation": 605,
+		"error": 604,
+		"empty_results": 615,
+		"error_message": "Please Check Logs",
+		"item_duplicate": 651,
+		"fk_constraint_exception": 606,
+		"partialSuccess": 601,
+		"duplication_exception": 607,
+
+		"user_not_exists": 702,
+
+		"cart_validation_fail": 907,
+		"cart_validation_partially_fail": 906,
+		"get_product_from_cart_and_wishlist_with_removed_product": 905,
+		"entity_not_exists": 904,
+		"no_active_products_while_proceed_to_checkout": 903,
+		"Unable_to_decrease_product_qty_while_checkout": 902,
+		"expectation_failed": 901,
+
+		"unable_to_make_internal_call": 801,
+		"file_size_limit_exception": 802,
+		"unable_to_store_files": 803,
+		"cart_contains_products_from_different_client": 804,
+		"no_taxclass_found_while_exporting_product": 805
+	},
+	"http_status": {
+		"ok": 200
+	},
+	"errors": {
+		"11000": "duplication_exception",
+		"LIMIT_FILE_SIZE": "file_size_limit_exception",
+		"ERR_ASSERTION": "field_validation"
+	}
+}
